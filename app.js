@@ -14,8 +14,6 @@ const store = createStore(reducer,compose(
 ));
 
 
-//upon application startup we won't to fire action to get inital queue.
-store.dispatch(getDocuments());
 
 
 require('./index.html');
