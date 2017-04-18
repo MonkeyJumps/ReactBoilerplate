@@ -5,8 +5,7 @@ import {AppContainer} from 'react-hot-loader';
 import {createStore,applyMiddleware,compose} from 'redux';
 import {Provider} from 'react-redux';
 import thunk from 'redux-thunk';
-import reducer from './reducer';
-import {getDocuments} from './reducer/documents/actions';
+
 
 
 const store = createStore(reducer,compose(
